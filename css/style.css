@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Cinzel');
+
+/* Background pattern from Subtle Patterns */
+body {
+    background-image: url(../images/subtle_white_mini_waves.png);
+}
+
+header {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background:
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', serif;
+}
+
+nav {
+    margin: auto;
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+li a {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    color: #0088dd;
+}
+
+a:hover {
+    color: #00aaff;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+main p {
+    font-family: 'Times New Roman', serif;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: rgb(0, 0, 0) 16px 5px 10px;
+    font-family: 'Cinzel', serif;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
